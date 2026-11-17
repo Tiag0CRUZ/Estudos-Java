@@ -20,32 +20,7 @@ public class arrey {
     }
 }
 
-//Código Ajustado (O jeito profissional):
 
-
-class treino6 {
-    public static void main(String[] args) {
-        // Cada nome com suas aspas e separados por vírgula
-        String[] nomes = {"Tiago", "Marjorie", "Alice"};
-        String busca = "Alice";
-
-        boolean encontrou = false; // Nossa "bandeira"
-
-        for (int i = 0; i < nomes.length; i++) {
-            if (nomes[i].equals(busca)) {
-                encontrou = true; // Se achou, marca como verdadeiro
-                break; // Opcional: para o laço, pois já achamos quem queríamos
-            }
-        }
-
-        // Fora do laço, verificamos o resultado final
-        if (encontrou) {
-            System.out.println(busca + " pertence à lista!");
-        } else {
-            System.out.println(busca + " não pertence à lista.");
-        }
-    }
-}
 /////////////////////////////////////////////////////////////////////////////////////////////
 
 
